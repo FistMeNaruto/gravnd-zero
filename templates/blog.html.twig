@@ -1,0 +1,29 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+  {{ page.content }}
+
+  {% for post in page.collection %}
+    {% if post.header.featured_image is defined %}
+      {% set post_image = post.media.images[post.header.featured_image] %}
+    {% else %}
+      {% set post_image = post.media.images | first %}
+    {% endif %}
+
+    <h2>
+      <a href='{{ post.url }}'>{{ post.title }}</a>
+    </h2>
+
+    <a href="{{ post.url }}">
+      {% if post_image %}
+        {{ post_image.html }}
+      {% else %}
+        <img src="https://source.unsplash.com/random/800x600?sig={{ random() }}">
+      {% endif %}
+    </a>
+
+    {{ post.summary }}
+  {% endfor %}
+
+{% endblock %}
