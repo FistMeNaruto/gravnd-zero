@@ -8,6 +8,7 @@
   {% endif %}
 
   <h1>{{ page.title }}</h1>
+  <h4>{{ post.date | date('y-m-d') }}</h4>
   {% if post_image %}
     {{ post_image.html }}
   {% else %}
