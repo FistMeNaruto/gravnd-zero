@@ -1,7 +1,7 @@
 <h1 align='center'>Gravnd Zero</h1>
 
 <p align='center'>
-Minimal theme for [Grav CMS](http://github.com/getgrav/grav). No dependencies, improved directory structure, optimized build process and freedom to create.
+  Minimal theme for <a href='http://github.com/getgrav/grav'>Grav CMS</a>. No dependencies, improved directory structure, optimized build process and freedom to create.
 </p>
 
 ### Features
@@ -62,5 +62,5 @@ See [CONTRIBUTING.md]()
 <h3 align='center'>Thank you</h3>
 
 <p align='center'>
-To [Robbin Johansson](https://github.com/robbinfellow) and his [Haywire](https://github.com/robbinfellow/haywire-grav) Grav theme, on which this project is based on.
+  To <a href='https://github.com/robbinfellow'>Robbin Johansson</a> and his <a href='https://github.com/robbinfellow/haywire-grav'>Haywire</a> Grav theme, on which this project is based on.
 </p>
