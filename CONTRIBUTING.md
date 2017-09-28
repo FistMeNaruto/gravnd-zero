@@ -1,5 +1,5 @@
 ## Contribute
-Contributions are welcome from everyone.
+First off, thank you for considering contributing to Gravnd Zero theme! All contributions are welcome, be it a bug report or fix, feature request or implementation.
 
 ### Bug reports
 Create an [issue](https://github.com/fistmenaruto/gravnd-zero/issues) with detailed information regarding the problem.
@@ -13,11 +13,19 @@ $ cd ~/grav/user/themes
 $ git clone https://github.com/fistmenaruto/gravnd-zero.git gravnd-zero
 $ cd gravnd-zero
 $ yarn
-$ yarn run dev / watch / production
+$ yarn dev / watch / production
 ```
 
-### Yarn scripts
+#### Yarn scripts
 
-`yarn run dev` Compiles the .scss, .js and .twig files and adds sourcemaps.
-`yarn run watch` same as `dev` but watches files for changes and runs Browsersync. Once files are saved, they are recompiled and this triggers Browsersync to refresh the browser(s).
-`yarn run production` same as `dev` but prepares the files for production minifying them and removing sourcemaps.
+``` sh
+# Compile .scss, .js, .twig files and add sourcemaps.
+$ yarn dev
+
+# Same as dev but watches files for changes and runs Browsersync.
+# Once files are saved, they are recompiled and Browsersyn refreshes the browsers.
+$ yarn watch
+
+# Prepares the files for production minifying them and removing sourcemaps.
+$ yarn production
+```
