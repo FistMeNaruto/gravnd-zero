@@ -33,6 +33,7 @@ $ git clone https://github.com/fistmenaruto/gravnd-zero.git
 $ cd gravnd-zero
 $ yarn
 ```
+Activate theme in admin panel or change `theme` to `gravnd-zero` in `user/config/system.yaml`
 > Using this method you will have to manually copy files from `user/themes/gravnd-zero/_demo/pages` to `user/pages`
 
 ### Usage
