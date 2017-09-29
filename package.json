@@ -1,6 +1,6 @@
 {
   "name": "gravnd-zero",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "https://github.com/fistmenaruto/gravnd-zero.git",
   "author": "Domantas Petrauskas <domantas.pet@gmail.com>",
   "scripts": {

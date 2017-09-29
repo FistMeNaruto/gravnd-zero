@@ -5,7 +5,7 @@ icon: code
 author:
   name: Domantas Petrauskas
   email: domantas@kemdu.lt
-homepage: https://github.com/fistmenaruto/grav-theme-gravnd-zero
+homepage: https://github.com/fistmenaruto/gravnd-zero
 # demo: http://demo.yoursite.com
 keywords: gravnd-zero, boilerplate, starter-theme, custom, base, laravel-mix
 bugs: https://github.com/fistmenaruto/gravnd-zero/issues
