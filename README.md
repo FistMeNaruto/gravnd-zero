@@ -15,7 +15,7 @@
 
 ``` sh
 $ cd path/to/grav
-$ bin/gpm install gravnd-zero
+$ (php) bin/gpm install gravnd-zero
 $ cd /user/themes/gravnd-zero
 $ yarn
 ```
